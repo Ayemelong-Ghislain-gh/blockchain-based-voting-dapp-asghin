@@ -1,0 +1,11 @@
+[build]
+  command = "vite build"
+  publish = "dist/client"
+
+[build.environment]
+  VITE_CONTRACT_ADDRESS = "0x4C462Ebd0238964D26cd0CF1591956956BE78486"
+
+[dev]
+  command = "npm run dev"
+  targetPort = 3000
+  port = 8888
