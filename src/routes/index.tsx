@@ -269,6 +269,45 @@ function Home() {
         )}
       </div>
 
+      {/* About This Project Section */}
+<section className="mt-20 max-w-4xl mx-auto px-4">
+  <div className="bg-gradient-to-r from-purple-900/30 to-blue-900/30 rounded-2xl p-6 md:p-8 border border-white/10">
+    <div className="flex flex-col md:flex-row items-center gap-6 md:gap-8">
+      
+      {/* Profile Picture */}
+      <div className="flex-shrink-0">
+        <img 
+          src="https://ui-avatars.com/api/?name=GHISLAIN&background=4F46E5&color=fff&size=120&rounded=true"
+          alt="AYEMELONG SELOBIE GHISLAIN"
+          className="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover border-4 border-purple-500/50"
+        />
+        <p className="text-center text-xs text-gray-400 mt-2">Project Creator</p>
+      </div>
+      
+      {/* About Text */}
+      <div className="flex-1 text-center md:text-left">
+        <h3 className="text-xl md:text-2xl font-bold bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent mb-3">
+          About This Project
+        </h3>
+        <p className="text-gray-300 text-sm md:text-base leading-relaxed">
+          This DApp was developed as my final-year dissertation project for the <span className="text-purple-400 font-medium">HTTC Computer Science Department</span> at the <span className="text-purple-400 font-medium">University of Bamenda</span>. 
+          It demonstrates a blockchain-based voting system where votes are recorded immutably on the Ethereum Sepolia testnet, ensuring transparency, security, and auditability. 
+          The system uses smart contracts to enforce one-person-one-vote rules and allows voters to verify their votes on-chain.
+        </p>
+        <div className="mt-4 flex flex-wrap gap-3 justify-center md:justify-start">
+          <span className="text-xs bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full">🔗 Blockchain Verified</span>
+          <span className="text-xs bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full">🛡️ Tamper-Proof</span>
+          <span className="text-xs bg-green-500/20 text-green-300 px-3 py-1 rounded-full">👁️ Transparent</span>
+        </div>
+        <p className="text-right text-xs text-gray-500 mt-4 italic">
+          — AYEMELONG SELOBIE GHISLAIN
+        </p>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
       {/* Vote Modal */}
       {votingElection !== null && (
         <VoteModal
