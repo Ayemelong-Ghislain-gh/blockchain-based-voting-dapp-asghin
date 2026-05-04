@@ -30,8 +30,8 @@ function RootDocument({ children }: { children: React.ReactNode }) {
             <footer className="border-t border-white/10 mt-16 py-8 text-center text-gray-500 text-sm">
               <p>
                 © 2026{' '}
-                <span className="text-gray-400">BlockVote</span> — Department
-                of Computer Science, University of Bamenda
+                <span className="text-gray-400">AYEMELONG SELOBIE GHISLAIN</span> — HTTC, Department
+                of Computer Science, University of Bamenda.
               </p>
               <p className="mt-1">
                 Contract:{' '}
